@@ -1,0 +1,9 @@
+{
+  "name": "dcwims-menu",
+  "version": "0.0.0",
+  "description": "DCWIMS MENU",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}
