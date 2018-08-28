@@ -3,12 +3,20 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 
-class Hello extends React.Component {
+import Loading from './components/loading.js'
+import Hello from './components/Hello.js'
+
+
+
+class App extends React.Component {
     render() {
         return (
-            <h1>Welcome to React!!</h1>
+            <div>
+                <Loading />
+                <Hello />
+            </div>
         );
     }
 }
 
-ReactDOM.render(<Hello />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
