@@ -78,6 +78,8 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
         ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
@@ -88,20 +90,47 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
+Object.defineProperty(exports, "__esModule", { value: true });
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 var ReactDOM = __webpack_require__(/*! react-dom */ "./node_modules/react-dom/index.js");
-var Hello = /** @class */ (function (_super) {
-    __extends(Hello, _super);
-    function Hello() {
+var loading_js_1 = __webpack_require__(/*! ./components/loading.js */ "./components/loading.js");
+var Hello_js_1 = __webpack_require__(/*! ./components/Hello.js */ "./components/Hello.js");
+var App = /** @class */ (function (_super) {
+    __extends(App, _super);
+    function App() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    Hello.prototype.render = function () {
-        return (React.createElement("h1", null, "Welcome to React!!"));
+    App.prototype.render = function () {
+        return (React.createElement("div", null,
+            React.createElement(loading_js_1.default, null),
+            React.createElement(Hello_js_1.default, null)));
     };
-    return Hello;
+    return App;
 }(React.Component));
-ReactDOM.render(React.createElement(Hello, null), document.getElementById('root'));
+ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
 
+
+/***/ }),
+
+/***/ "./components/Hello.js":
+/*!*****************************!*\
+  !*** ./components/Hello.js ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module parse failed: Unexpected token (6:12)\nYou may need an appropriate loader to handle this file type.\n|     render() {\r\n|         return (\r\n|             <p>We the best music </p>\r\n|         );\r\n|     }\r");
+
+/***/ }),
+
+/***/ "./components/loading.js":
+/*!*******************************!*\
+  !*** ./components/loading.js ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+throw new Error("Module parse failed: Unexpected token (6:12)\nYou may need an appropriate loader to handle this file type.\n|     render() {\r\n|         return (\r\n|             <h1>Welcome to Yummy </h1>\r\n|         );\r\n|     }\r");
 
 /***/ }),
 

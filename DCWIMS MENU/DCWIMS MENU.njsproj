@@ -40,11 +40,35 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="dist\app-bundle.js" />
+    <Compile Include="index.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="login.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="loginscreen.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="register.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="server.js" />
+    <Compile Include="UploadPage.js">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="uploadscreen.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="webpack-config.js">
       <SubType>Code</SubType>
     </Compile>
+    <Content Include="app.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="dist\app-bundle.js.map" />
+    <Content Include="index.css">
+      <SubType>Code</SubType>
+    </Content>
     <Content Include="index.html">
       <SubType>Code</SubType>
     </Content>
@@ -55,6 +79,9 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="App.test.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="app.tsx">
       <SubType>Code</SubType>
     </TypeScriptCompile>
