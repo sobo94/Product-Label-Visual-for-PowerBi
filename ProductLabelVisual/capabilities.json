@@ -1,0 +1,84 @@
+{
+    "dataRoles": [
+       {
+            "displayName": "Name",
+            "name": "name",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Quantity",
+            "name": "quantity",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Timing",
+            "name": "timing",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Route",
+            "name": "route",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Color",
+            "name": "color",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Destination",
+            "name": "destination",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Size",
+            "name": "size",
+            "kind": "Grouping"
+        }
+    ],
+    "dataViewMappings": [
+        {
+            "table": {
+                "rows": {
+                    "select": [
+                        {
+                            "for": {
+                                "in": "name"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "quantity"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "timing"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "route"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "color"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "destination"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "size"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
