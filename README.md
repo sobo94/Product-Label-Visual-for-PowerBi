@@ -1,5 +1,5 @@
 # Introduction
-TODO: We are building a menu system that will show each customer their live ordering menu. 
+We are building a Label system for product labels and shipping labels that will be used by employees to know content of food and where it is to be sent 
 
 # Getting Started
 TODO:
@@ -11,7 +11,5 @@ TODO:
 # Build and Test
 TODO: Fork repo and build solution.
 
-# Contribute
-TODO: Build Menu
 
 
