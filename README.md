@@ -2,12 +2,12 @@
 We are building a Label system for product labels and shipping labels that will be used by employees to know content of food and where it is to be sent 
 
 # To Use Custom Visual
-1) Open Power BI Desktop, create new report.
-2) Download Packaged Folder - Contains 2 Dataset's and a packaged visual file in dist folder as Product-Label-Visual-for-PowerBi.PBIX
+1) Download Packaged Folder - Contains Dataset and a packaged visual file in dist folder as Product-Label-Visual-for-PowerBi.PBIX
+
+2) Open Power BI Desktop, create new report.
 
 2) Add Data Set: 
 Either one of the following dataset provided:
-* Excel - .csv
 * SQL database -.pbix
 
 3) Import Packaged Visual 
@@ -26,8 +26,7 @@ Either one of the following dataset provided:
 * Verify that the visual has been added to the Visualizations pane.
 
 4) Configure Data: 
-- For .csv Data Source, Map the Column Names onto the box titles and Product Labels should Render
-*insert Image
+
 
 - For .pbix Data Source, use the chart bellow to map the respective Database tables and get the files onto box title. 
 
